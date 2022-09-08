@@ -14,3 +14,6 @@ st.write("Здесь указан наш текст")
 st.write(df)
 st.area_chart(df)
 st.line_chart(df)
+
+mainslider = st.slider("Футы")
+st.write(mainslider, " в метрах ", mainslider * 0.3)
